@@ -72,6 +72,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="ancient" />
   <project path="packages/resources/MotoActions" name="android_packages_resources_MotoActions" remote="ancient" />
   <project path="packages/resources/OneplusGestures" name="android_packages_resources_OneplusGestures" remote="ancient" />
+  <project path="packages/apps/AncientSettings" name="android_packages_apps_AncientSettings" remote="ancient" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="ancient" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="ancient" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="ancient" />
