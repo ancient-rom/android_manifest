@@ -38,6 +38,7 @@
   <project path="art" name="android_art" remote="ancient" />
   <project path="bionic" name="android_bionic" remote="ancient" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="ancient" />
+  <project path="development" name="android_development" remote="ancient" />
   <project path="frameworks/av" name="android_frameworks_av" remote="ancient" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ancient" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="ancient" />
@@ -181,6 +182,7 @@
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="ancient" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="ancient" />
   <project path="external/icu" name="android_external_icu" remote="los" />
+  <project path="external/skia" name="android_external_skia" remote="ancient" />
 
   <!-- Qcom Vendor Repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="ancient" />
