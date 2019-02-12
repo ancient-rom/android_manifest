@@ -43,13 +43,13 @@ To get started with the building process, you'll need to get familiar with [Git 
  $ repo init --depth=1 -u git://github.com/ancient-rom/manifest.git -b pie
 ```
 
-Then to sync up:- 
+# Then to sync up:- 
 
 ```bash
  $ repo sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken --force-sync -j8
 ```
 
-Start the build:-
+# Start the build:-
 
 ```bash
  $ . build/envsetup.sh
