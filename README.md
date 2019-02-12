@@ -12,7 +12,6 @@ Credits:
  * [**SuperiorOS**](https://github.com/SuperiorOS)
  * [**DotOS**](https://github.com/DotOS)
  * [**PixelExperience**](https://github.com/PixelExperience)
- * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
  * [**AospExtended**](https://github.com/AospExtended)
  * [**Syberia OS**](https://github.com/syberia-project)
  * [**Nitrogen OS**](https://github.com/nitrogen-project)
@@ -32,26 +31,31 @@ Credits:
 
 To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository, use a command like this:
+# To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u git://github.com/ancient-rom/manifest.git -b pie
+ $ repo init -u git://github.com/ancient-rom/manifest.git -b pie
 ```
 
-Then to sync up:-
+# To initialize a shallow clone, which will save even more space, use a command like this: 
+
+```bash
+ $ repo init --depth=1 -u git://github.com/ancient-rom/manifest.git -b pie
+```
+
+Then to sync up:- 
 ================
 
 ```bash
-    repo sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken --force-sync -j8
+ $ repo sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken --force-sync -j8
 ```
 
 Start the build:-
 =================
 
 ```bash
-  . build/envsetup.sh
-  lunch ancient_<devicecodename>-userdebug
-  mka bacon -jx
+ $ . build/envsetup.sh
+ $ lunch ancient_<devicecodename>-userdebug
+ $ mka bacon -jx
 ```
 -----------------------------------------------------------------------------
-
