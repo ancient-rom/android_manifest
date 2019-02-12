@@ -31,27 +31,25 @@ Credits:
 
 To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-# To initialize your local repository, use a command like this:
+# To initialize your local repository, use a command like this:-
 
 ```bash
  $ repo init -u git://github.com/ancient-rom/manifest.git -b pie
 ```
 
-# To initialize a shallow clone, which will save even more space, use a command like this: 
+# To initialize a shallow clone, which will save even more space, use a command like this:-
 
 ```bash
  $ repo init --depth=1 -u git://github.com/ancient-rom/manifest.git -b pie
 ```
 
 Then to sync up:- 
-================
 
 ```bash
  $ repo sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken --force-sync -j8
 ```
 
 Start the build:-
-=================
 
 ```bash
  $ . build/envsetup.sh
