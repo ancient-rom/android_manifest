@@ -22,6 +22,7 @@ Credits:
  * [**BootleggersROM**](https://github.com/BootleggersROM)
  * [**ABC**](https://github.com/ezio84?tab=repositories)
  * [**MCAOSP**]()
+ * [**OMNIROM**](https://github.com/omnirom)
  * [**AOSIP**](https://github.com/aosip)
  * [**Liquid Remix**](https://github.com/liquidremix)
  * [**Resurrection Remix**](https://github.com/ResurrectionRemix)
