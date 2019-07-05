@@ -35,13 +35,13 @@ To get started with the building process, you'll need to get familiar with [Git 
 # To initialize your local repository, use a command like this:-
 
 ```bash
- $ repo init -u git://github.com/ancient-rom/manifest.git -b pie
+ $ repo init -u git://github.com/ancient-rom/android_manifest.git -b pie
 ```
 
 # To initialize a shallow clone, which will save even more space, use a command like this:-
 
 ```bash
- $ repo init --depth=1 -u git://github.com/ancient-rom/manifest.git -b pie
+ $ repo init --depth=1 -u git://github.com/ancient-rom/android_manifest.git -b pie
 ```
 
 # Then to sync up:- 
