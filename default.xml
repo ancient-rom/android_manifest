@@ -10,7 +10,7 @@
 
   <default revision="refs/tags/android-9.0.0_r44"
            remote="aosp"
-           sync-j="4" 
+           sync-j="8" 
 		   sync-c="true"/>
 
   <project path="build/make" name="platform/build" groups="pdk" >
